@@ -4,18 +4,43 @@
   <head>
     <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.css'>
     <meta charset="UTF-8">
-    <title>Untitled</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berkeley Heritage Map</title>
     <link rel="stylesheet" href="./style.css">
 
   </head>
-    
-  <body>
+  
+    <div class="navbar">
+      <a href="#home">Heritage Map of Berkeley</a>
+      <div class="dropdown">
+        <button class="dropbtn">Architects 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#" data-architect="Ratcliff">Ratcliff</a>
+          <a href="#" data-architect="Gutterson">Gutterson</a>
+          <a href="#" data-architect="Fox">Fox</a>
+          <a href="#" data-architect="Maybeck">Maybeck</a>
+          <a href="#" data-architect="McNally/Estey">McNally/Estey</a>
+          <a href="#" data-architect="Snyder">Snyder</a>
+          <a href="#" data-architect="Hays & Plachek">Hays & Plachek</a>
+          <a href="#" data-architect="Morgan">Morgan</a>
+          <a href="#" data-architect="Broad 1">Broad 1</a>
+          <a href="#" data-architect="Broad 2">Broad 2</a>
+          <a href="#" id="showAll">Show All</a>
+        </div>
+      </div>
+    </div>
+
   <div id="map">
 </div>
-<h1> Heritage Map of Berkeley</h1>
+<h2>Celine Hill, 2025</h2>
+<h4>berkeleyheritage.com</h4>
+
 <script src='https://api.mapbox.com/mapbox-gl-js/v3.15.0/mapbox-gl.js'></script>
     <script  src="./script.js"></script>
-
   </body>
-  
 </html>
+
+
+  
